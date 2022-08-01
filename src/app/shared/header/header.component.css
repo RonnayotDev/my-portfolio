@@ -28,12 +28,6 @@ li a:hover {
   display: none;
 }
 @media screen and (max-width: 767px) {
-  nav{
-    position: sticky;
-    top: 1.5rem;
-    left: 0;
-    background-color: white;
-  }
     .nav-wrap li {
         margin: 1rem;
     }
