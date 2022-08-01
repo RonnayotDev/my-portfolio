@@ -1,0 +1,177 @@
+<div class="container-1">
+  <div class="grid">
+    <div
+      class="col-12 md:col-6"
+      style="display: flex; justify-content: center; flex-direction: column"
+    >
+      <div class="title-about">
+        <p>Ronnayot Jaisai</p>
+      </div>
+      <div class="desc-about-1">
+        <p>
+          Ronnayot is a junior frontend developer He's been improving
+          programming skill everyday through Online courses and he likes
+          learning/reading about technology.
+        </p>
+      </div>
+      <div class="desc-about-2">
+        <p>
+          He has intermediate experience on building Web Application and API
+          from scratch using HTML,CSS,Javascript,Typescript And Framework using
+          Angular,ReactJS,NextJS And Backend using NodeJS,ExpressJS,Database
+          design and manipulation skill.
+        </p>
+      </div>
+      <div class="desc-about-3">
+        <p>previous job, he has experience in frontend developer .</p>
+      </div>
+    </div>
+    <div
+      class="col-12 md:col-6"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <div class="image-about">
+        <img [src]="imageSrc6" [alt]="imageAlt6" width="300px" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-2">
+  <div class="title-container-2">
+    <p>Skills</p>
+  </div>
+  <div class="grid">
+    <div
+      class="col-12 md:col-4 lg:col-3"
+      *ngFor="let item of imageSkills.img"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <div class="img-skills">
+        <img [src]="item" alt="imageAltSkills" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-3">
+  <div class="title-container-3">
+    <p>Experiences</p>
+  </div>
+  <div class="grid">
+    <div class="col-12 md:col-6">
+      <div class="card-container-3">
+        <div
+          class="col-4"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <div class="image-logo-exp">
+            <img [src]="imagecardEXP1" alt="accenture-logo" />
+          </div>
+          <div class="title-logo-exp">
+            <p>Accenture</p>
+          </div>
+          <div class="date-logo-exp">
+            <p>Oct 16 2021 - Present</p>
+          </div>
+        </div>
+        <div
+          class="col-8"
+          style="display: flex; flex-direction: column; justify-content: center"
+        >
+          <div class="title-exp">
+            <p>Application Development Associate</p>
+          </div>
+          <div class="desc-exp">
+            <p>Krungthai Bank as a tester role</p>
+            <ul>
+              <li>test application krungthai use as jira</li>
+            </ul>
+          </div>
+          <div class="desc-exp">
+            <p>Unicef as a SA/Saleforce</p>
+            <ul>
+              <li>Management Unicef CRM With Saleforce</li>
+              <li>
+                Solve technology problems through developing, designing, and
+                configuring software products or systems that enable client
+                strategies
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 md:col-6">
+        <div class="card-container-3">
+          <div
+            class="col-12 md:col-4"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div class="image-logo-exp">
+              <img [src]="imagecardEXP2" alt="icweb-logo" />
+            </div>
+            <div class="title-logo-exp">
+              <p>IC WEB</p>
+            </div>
+            <div class="date-logo-exp">
+              <p>Dec 26 2020 - Oct 16 2021</p>
+            </div>
+          </div>
+          <div
+            class="col-12 md:col-8"
+            style="display: flex; flex-direction: column; justify-content: center"
+          >
+            <div class="title-exp">
+              <p>Web Developer
+            </p>
+            </div>
+            <div class="desc-exp">
+              <ul>
+                <li>Edit Content.</li>
+                <li>Develop promotion pages using html.</li>
+                <li>Modifies code to fix errors.</li>
+                <li>Develop landing pages, dashboard website
+                    using HTML/CSS/JS.</li>
+                <li>
+                    Edit SEO properties.
+                </li>
+                <li>
+                    UTM passthrough.
+                </li>
+              </ul>
+            </div>
+            <div class="desc-exp">
+              <p>Unicef as a SA/Saleforce</p>
+              <ul>
+                <li>Management Unicef CRM With Saleforce</li>
+                <li>
+                  Solve technology problems through developing, designing, and
+                  configuring software products or systems that enable client
+                  strategies
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

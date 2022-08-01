@@ -1,0 +1,23 @@
+.container-4{
+    padding-top: 4rem;
+    padding: 2rem;
+    border-top: solid silver 1px;
+}
+.title-container-4 p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.img-linked-container-4 img{
+    width: 25px;
+    margin-left: 2rem;
+}
+.c{
+    display: flex;
+    align-items: center;
+}
+ul.link-wrap-footer li a{
+    color: gray;
+}
+ul.link-wrap-footer li{
+    margin-bottom: 1rem;
+}

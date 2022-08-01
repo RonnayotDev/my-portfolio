@@ -1,0 +1,17 @@
+<div class="container-1">
+    <div class="title-container-1">
+        <p>Projects</p>
+    </div>
+    <div class="grid">
+        <div class="col-12" *ngFor="let item of data">
+            <div class="items-wrap">
+                <div class="items-title">
+                    <a [href]="item.link" target="_blank"><p>{{item.title}}</p></a>
+                </div>
+                <div class="items-date">
+                    <p>{{item.date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

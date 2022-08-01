@@ -1,0 +1,30 @@
+.container-1{
+    padding: 2rem;
+}
+.title-container-1 p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.title-contact p{
+    font-weight: bold;
+}
+.image-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-contact{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.card-contact:hover{
+    border: solid transparent 1px;
+    border-radius: 10px;
+    background-color: #70DA9D;
+    transform: scale(1.07);
+    transition-duration: .2s;
+}

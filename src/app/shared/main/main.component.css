@@ -1,0 +1,103 @@
+.container-1 {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt-mobile{
+    display: none;
+}
+.txt-main-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt-main-1 .txt-pc{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.txt-main-1 span{
+    color: gray;
+}
+.img-main-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-container-2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.desc-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc-container-2 p{
+    font-size: 16px;
+    color: gray;
+}
+.g{
+    padding: 1rem;
+}
+.container-3{
+    padding: 2rem;
+}
+.title-container-3{
+    margin-bottom: 2rem;
+}
+.title-container-3 p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.img-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container-3 img{
+width: 200px
+}
+@media screen and (max-width:768px){
+    .txt-mobile{
+        font-size: 26px;
+        color: black;
+        font-weight: bold;
+        display: block;
+    }
+    .txt-pc{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .txt-mobile{
+        font-size: 26px;
+        color: black;
+        font-weight: bold;
+        display: block;
+    }
+    .txt-main-1 span{
+        margin-bottom: 1rem;
+    }
+    .txt-pc{
+        display: none;
+    }
+}

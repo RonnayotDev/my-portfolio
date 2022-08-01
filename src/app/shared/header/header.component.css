@@ -1,0 +1,100 @@
+nav {
+  padding: 2rem; 
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.logo-txt a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+ul.link-wrap {
+  display: flex;
+}
+li a {
+  color: black;
+  padding: 1rem;
+}
+li a:hover {
+  border: 1px solid white;
+  border-radius: 10%;
+  background: whitesmoke;
+}
+.ham-burger {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  nav{
+    position: sticky;
+    top: 1.5rem;
+    left: 0;
+    background-color: white;
+  }
+    .nav-wrap li {
+        margin: 1rem;
+    }
+    .nav-wrap li a{
+        color: black;
+    }
+  .nav-wrap .link-wrap {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: all 300ms;
+  }
+  .nav-wrap.active .link-wrap {
+    max-height: 200px;
+    background-color: #70DA9D;
+  }
+  ul.link-wrap {
+    display: none;
+  }
+  .ham-burger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .ham-burger span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 75%;
+    height: 2px;
+    background: black;
+    transform: translate(-50%, -50%);
+    transition: all 300ms;
+  }
+  .ham-burger span:nth-child(1) {
+    top: 20%;
+  }
+  .ham-burger span:nth-child(2) {
+    top: 50%;
+  }
+  .ham-burger span:nth-child(3) {
+    top: 80%;
+  }
+  .active .ham-burger span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .active .ham-burger span:nth-child(2) {
+    display: none;
+  }
+  .active .ham-burger span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
